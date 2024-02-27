@@ -5,6 +5,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  font-family: monospace, serif;
 }
 
 input {
@@ -16,11 +18,15 @@ input {
   flex: 0 0;
   flex-wrap: wrap;
   margin: 10px;
-  width: 980px;
-  height: 980px;
+  width: 900px;
+  height: 900px;
 }
 
 .gridbox {
   flex: 1 1;
-  outline: black auto 5px;
+  outline: lightgrey solid 1px;
+}
+
+#clear {
+  font-weight: 800;
 }
