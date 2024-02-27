@@ -30,3 +30,7 @@ input {
 #clear {
   font-weight: 800;
 }
+
+footer {
+  margin: 30px 0px 15px 0px;
+}
